@@ -3,7 +3,3 @@ function fibonacci(n) {
 
 	return fibonacci(n - 2) + fibonacci(n - 1);
 }
-
-const tests = [];
-for (let i = 0; i <= 100; i++) tests.push(i);
-const results = [];
